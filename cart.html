@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/syle.css" />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;600;700&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/logod.png" />
+        </div>
+        <nav>
+          <ul id="menuitems">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="account.html">ACCOUNT </a></li>
+          </ul>
+        </nav>
+        <img
+          src="images/menu.png"
+          width="30px"
+          height="30px"
+          class="menubtn"
+          onclick="menuToggle()"
+        />
+        <img src="images/cart.png" width="30px" height="30px">
+      </div>
+    </div>
+
+    <div class="small-container" id="cartPage">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quality</th>
+          <th>SubTotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-1.jpg" alt="" srcset="" />
+              <div class="cart-details">
+                <p>Red T-Shirt</p>
+                <small>Price: 500 Rs</small>
+                <a href="http://">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>500 Rs</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-2.jpg" alt="" srcset="" />
+              <div class="cart-details">
+                <p>Red T-Shirt</p>
+                <small>Price: 500 Rs</small>
+                <a href="http://">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>500 Rs</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-3.jpg" alt="" srcset="" />
+              <div class="cart-details">
+                <p>Red T-Shirt</p>
+                <small>Price: 500 Rs</small>
+                <a href="http://">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>500 Rs</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="small-container total-price">
+      <table>
+        <tr>
+          <td>SubTotal</td>
+          <td>500 Rs</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>50 Rs</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>550 Rs</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="f-col-1">
+            <h1>Download Our App</h1>
+            <p>Download for ANDROID | IOS</p>
+            <div class="app-logo">
+              <img src="images/app-store.png" />
+              <img src="images/play-store.png" />
+            </div>
+          </div>
+          <div class="f-col-2">
+            <div class="logo"><img src="images/ammar.png" /></div>
+            <p>
+              Our Purpose Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Repudiandae, veniam.
+            </p>
+          </div>
+          <div class="f-col-3">
+            <h1>Useful Links</h1>
+            <ul>
+              <li>Coupons</li>
+              <li>Blogs</li>
+              <li>Return Policy</li>
+              <li>Join Affliate</li>
+            </ul>
+          </div>
+          <div class="f-col-4">
+            <h1>Follow Us</h1>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Yotube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &copy; 2021 | AMMAR STORE</p>
+      </div>
+    </div>
+
+    <!-- CUSTOM JS -->
+    <script src="js/custom.js"></script>
+    <!-- FONT AWESOME -->
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
